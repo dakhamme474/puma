@@ -1,0 +1,20 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+//! mes variable couleures
+$green : #41ac4a ;
+$brown : #690101 ;
+$red : #ae2424 ;
+$blue : #1f12906e ;
+//!mes names colors
+$custom-colors : ( 
+    "khdar" : $green ,
+    "9ahwi" : $brown ,
+    "7mer" : $red ,
+    "zra9" : $blue ,
+
+) ;
+$theme-colors : map-merge($theme-colors , $custom-colors )
+
+
+
+
